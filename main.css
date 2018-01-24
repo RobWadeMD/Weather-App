@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open-Sans', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden
+}
+
+.weatherApp {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url(347714086.mp4);
+}
+
+.videoHeader {
+    position: absolute;
+    height: 100vh;
+    z-index: 10;
+    height: auto;
+}
+
+#videoSource {}
+
+.weatherInfo {
+    height: 100%;
+    width: 100%;
+    padding-left: 40px;
+    position: absolute;
+    color: white;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#title {
+    font-size: 60px;
+}
+
+#currentTemperature {
+    cursor: pointer;
+    font-size: 55px;
+}
+
+#currentHumidity {
+    font-size: 40px;
+}
+
+#currentMain {
+    font-size: 40px;
+}
+
+#currentDescription {
+    font-size: 30px;
+}
